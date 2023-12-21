@@ -28,19 +28,22 @@
     </nav>
 
     <main>
-        <div class="card-container flex">
-            <div class="card">
-                <div class="card-header">
-                    <img src="https://via.placeholder.com/400x200" alt="news Image" id="news-img">
-                </div>
-                <div class="card-content">
-                    <h3>This is the Title</h3>
-                    <h6>End gadget 15/12/2023</h6>
-                    <p class="news-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas repellendus, quasi dolorum doloribus aut sapiente magni laudantium harum qui consequatur. </p>
-                </div>
-            </div>
+        <div class="cards-container flex">
+
         </div>  
     </main>
+    <template id="temp-news-card">
+        <div class="card">
+            <div class="card-header">
+                <img src="https://via.placeholder.com/400x200" alt="news Image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3>This is the Title</h3>
+                <h6 class="news-src" id="news-src">End gadget 15/12/2023</h6>
+                <p class="news-desc" id="news-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas repellendus, quasi dolorum doloribus aut sapiente magni laudantium harum qui consequatur. </p>
+            </div>
+        </div>
+    </template>
 
     <script src="script.js"></script>
 </body>
